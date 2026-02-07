@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Simple Chat</string>
+    <string name="app_name">App-Conn-Act</string>
     <string name="hint_type_message">Type a message...</string>
     <string name="send">Send</string>
 </resources>
