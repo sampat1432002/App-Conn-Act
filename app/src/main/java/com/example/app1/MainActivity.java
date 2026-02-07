@@ -105,6 +105,12 @@ public class MainActivity extends AppCompatActivity {
         simulateAutoReply();
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        handler.removeCallbacksAndMessages(null);
+    }
+
     private void simulateAutoReply() {
         int delay = 1000 + random.nextInt(2000);
 
